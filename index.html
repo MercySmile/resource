@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>素材展示站 - 个人项目图片素材展示</title>
+  <meta
+    name="description"
+    content="素材展示站用于展示个人小程序及网站项目中的图片素材，提供静态图片资源访问与项目素材展示。"
+  />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+      background: #f7f8fa;
+      color: #1f2937;
+      line-height: 1.7;
+    }
+
+    .page {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 64px 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 18px;
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+      border: 1px solid #eef0f3;
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      font-size: 32px;
+      color: #111827;
+    }
+
+    .desc {
+      font-size: 16px;
+      color: #4b5563;
+      margin-bottom: 32px;
+    }
+
+    .section {
+      margin-top: 28px;
+    }
+
+    .section h2 {
+      font-size: 20px;
+      margin-bottom: 12px;
+      color: #111827;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .item {
+      padding: 18px;
+      border-radius: 14px;
+      background: #f9fafb;
+      border: 1px solid #edf0f2;
+    }
+
+    .item strong {
+      display: block;
+      margin-bottom: 6px;
+      color: #111827;
+    }
+
+    footer {
+      margin-top: 28px;
+      font-size: 14px;
+      color: #6b7280;
+      text-align: center;
+    }
+
+    footer a {
+      color: #4b5563;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="card">
+      <h1>素材展示站</h1>
+
+      <p class="desc">
+        本站用于展示个人小程序及网站项目中的图片素材，提供静态图片资源访问、素材预览与项目展示说明。
+      </p>
+
+      <div class="section">
+        <h2>网站内容</h2>
+        <p>
+          本站主要整理和展示本人开发项目中使用的图片素材，包括图标、插图、封面图、静态资源等内容。
+          所有内容仅用于个人项目展示与资源访问。
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>素材分类</h2>
+        <div class="grid">
+          <div class="item">
+            <strong>小程序素材</strong>
+            <span>用于小程序页面展示的图标、封面图和插图。</span>
+          </div>
+          <div class="item">
+            <strong>网站素材</strong>
+            <span>用于个人网站项目的静态图片和页面展示资源。</span>
+          </div>
+          <div class="item">
+            <strong>项目图片</strong>
+            <span>用于项目介绍、功能说明和视觉展示的图片内容。</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        © 2026 素材展示站
+      </p>
+      <!-- 备案通过后，把下面的备案号替换成真实备案号，并取消注释 -->
+      <!-- <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">ICP备案号：你的备案号</a></p> -->
+    </footer>
+  </main>
+</body>
+</html>
